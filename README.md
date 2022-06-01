@@ -1,10 +1,10 @@
-## celo-multisig
+## gnosis-safe
 
-> Demo of celo native multisig accounts.
+> Demo of gnosis safe transactions.
 
 ### Installation
 ```sh
-cd celo-multisig-demo
+cd gnosis-safe-tx-demo
 yarn install
 yarn build
 ```
@@ -20,5 +20,5 @@ To use, edit`targetMetadata`, `targetAddress` and `getTargetTx` and run `yarn bu
 Then execute the transaction with:
 
 ```sh
-yarn start send --rpc-url URL --private-key KEY --safe-address ADDR
+yarn start send --rpc-url URL --private-key KEY --safe-address ADDR --safe-url URL
 ```
